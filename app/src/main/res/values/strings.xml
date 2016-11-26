@@ -6,4 +6,7 @@
     <string name="main_bottom_around">目的地</string>
     <string name="main_bottom_discover">发现</string>
     <string name="main_bottom_my">我的</string>
+
+    <!--discover里的文本-->
+    <string name="discover_top_search">\t周末去哪玩?</string>
 </resources>
