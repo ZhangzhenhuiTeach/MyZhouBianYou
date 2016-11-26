@@ -21,7 +21,6 @@ public class MainActivity extends AppCompatActivity implements RadioGroup.OnChec
 
 
     private RadioGroup mRadioGroup;
-    private FrameLayout mContainer;
     private Fragment showFragment;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,7 +32,6 @@ public class MainActivity extends AppCompatActivity implements RadioGroup.OnChec
     private void initView() {
         mRadioGroup = (RadioGroup) findViewById(R.id.main_bottom_radiogroup);
         mRadioGroup.setOnCheckedChangeListener(this);
-        mContainer = (FrameLayout) findViewById(R.id.main_container);
         FragmentManager manager = getSupportFragmentManager();
         FragmentTransaction transaction = manager.beginTransaction();
         showFragment = new HomeFragment();
